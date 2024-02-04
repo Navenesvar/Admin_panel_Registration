@@ -1,0 +1,29 @@
+{% include 'header.html' %}
+{% include 'navbar.html' %}
+
+<html>
+    <head>
+        <title>Admin Panel</title>
+        <style>
+            .well{
+                box-shadow:2px 2px 15px 0px black;
+            }
+            h1{
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>
+<script>
+    $(document).ready(function(){
+        $(".alert").hide(4000);
+    });
+</script>
