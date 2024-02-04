@@ -29,6 +29,25 @@ venv\Scripts\activate
 On macOS/Linux:
 bash
 ```bash
-Copy code
 source venv/bin/activate
 ```
+Run migrations:
+bash
+```bash
+python manage.py migrate
+```
+Create a superuser (admin) account:
+bash
+```bash
+python manage.py createsuperuser
+```
+Start the development server:
+bash
+```bash
+python manage.py runserver
+```
+Visit http://127.0.01:8000 in your browser
+
+Visit http://127.0.0.1:8000/admin/ in your browser and log in with the superuser credentials.
+
+Visit http://127.0.0.1:8000/register/ to access the registration page.
