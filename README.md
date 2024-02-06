@@ -22,27 +22,27 @@ python -m venv venv
 
 Activate the virtual environment:
 On Windows:
-bash
+
 ```bash
 venv\Scripts\activate
 ```
 On macOS/Linux:
-bash
+
 ```bash
 source venv/bin/activate
 ```
 Run migrations:
-bash
+
 ```bash
 python manage.py migrate
 ```
 Create a superuser (admin) account:
-bash
+
 ```bash
 python manage.py createsuperuser
 ```
 Start the development server:
-bash
+
 ```bash
 python manage.py runserver
 ```
