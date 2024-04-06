@@ -16,33 +16,34 @@ This project is a simple Django web application for user registration with an ad
 https://github.com/Navenesvar/Admin_panel_Registration_Django.git
 cd Admin_panel_Registration_Django
 ```
-## Create a virtual environment (optional but recommended):
+## Create a virtual environment:
+```
 python -m venv venv
-
+```
 Activate the virtual environment:
 On Windows:
 
-```bash
+```
 venv\Scripts\activate
 ```
 On macOS/Linux:
 
-```bash
+```
 source venv/bin/activate
 ```
 Run migrations:
 
-```bash
+```
 python manage.py migrate
 ```
 Create a superuser (admin) account:
 
-```bash
+```
 python manage.py createsuperuser
 ```
 Start the development server:
 
-```bash
+```
 python manage.py runserver
 ```
 Visit http://127.0.01:8000 in your browser
